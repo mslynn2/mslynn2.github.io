@@ -1,0 +1,23 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "field_1": "UK", "field_2": "410 Administration Dr.", "field_3": 38.022014, "field_4": -84.301787, "field_5": null }, "geometry": { "type": "Point", "coordinates": [ 38.022014, -84.301787 ] } },
+{ "type": "Feature", "properties": { "field_1": "Fay. Co. Public Schools", "field_2": "701 E Main St.", "field_3": 38.036525, "field_4": -84.485973, "field_5": null }, "geometry": { "type": "Point", "coordinates": [ 38.036525, -84.485973 ] } },
+{ "type": "Feature", "properties": { "field_1": "KY One Health", "field_2": "1 St. Joseph Dr.", "field_3": 38.031642, "field_4": -84.521184, "field_5": null }, "geometry": { "type": "Point", "coordinates": [ 38.031642, -84.521184 ] } },
+{ "type": "Feature", "properties": { "field_1": "Xerox", "field_2": "101 Yorkshire Blvd.", "field_3": 37.962589, "field_4": -84.485479, "field_5": null }, "geometry": { "type": "Point", "coordinates": [ 37.962589, -84.485479 ] } },
+{ "type": "Feature", "properties": { "field_1": "LFUCG", "field_2": "200 E Main St.", "field_3": 38.044945, "field_4": -84.495472, "field_5": null }, "geometry": { "type": "Point", "coordinates": [ 38.044945, -84.495472 ] } },
+{ "type": "Feature", "properties": { "field_1": "Lexmark", "field_2": "740 W New Circle Rd.", "field_3": 38.073915, "field_4": -84.492676, "field_5": null }, "geometry": { "type": "Point", "coordinates": [ 38.073915, -84.492676 ] } },
+{ "type": "Feature", "properties": { "field_1": "Wal-Mart1", "field_2": "4051 Nicholasville Rd.", "field_3": 37.978273, "field_4": -84.529146, "field_5": null }, "geometry": { "type": "Point", "coordinates": [ 37.978273, -84.529146 ] } },
+{ "type": "Feature", "properties": { "field_1": "Wal-Mart2", "field_2": "4230 Saron Dr.", "field_3": 37.967665, "field_4": -84.500627, "field_5": null }, "geometry": { "type": "Point", "coordinates": [ 37.967665, -84.500627 ] } },
+{ "type": "Feature", "properties": { "field_1": "Wal-Mart3", "field_2": "3180 Richmond Rd.", "field_3": 38.001267, "field_4": -84.446225, "field_5": null }, "geometry": { "type": "Point", "coordinates": [ 38.001267, -84.446225 ] } },
+{ "type": "Feature", "properties": { "field_1": "Wal-Mart4", "field_2": "2350 Grey Lag Way", "field_3": 38.021567, "field_4": -84.252077, "field_5": null }, "geometry": { "type": "Point", "coordinates": [ 38.021567, -84.252077 ] } },
+{ "type": "Feature", "properties": { "field_1": "Wal-Mart5", "field_2": "500 New Circle Rd.", "field_3": 38.072421, "field_4": -84.482288, "field_5": null }, "geometry": { "type": "Point", "coordinates": [ 38.072421, -84.482288 ] } },
+{ "type": "Feature", "properties": { "field_1": "Baptist Healthcare", "field_2": "1740 Nicholasville Rd.", "field_3": 38.020005, "field_4": -84.513559, "field_5": null }, "geometry": { "type": "Point", "coordinates": [ 38.020005, -84.513559 ] } },
+{ "type": "Feature", "properties": { "field_1": "VA Medical Center", "field_2": "1101 Veterans Dr.", "field_3": 38.302404, "field_4": -84.302404, "field_5": null }, "geometry": { "type": "Point", "coordinates": [ 38.302404, -84.302404 ] } },
+{ "type": "Feature", "properties": { "field_1": "Lockheed Martin", "field_2": "101 Prosperous Place", "field_3": 37.999943, "field_4": -84.445017, "field_5": null }, "geometry": { "type": "Point", "coordinates": [ 37.999943, -84.445017 ] } },
+{ "type": "Feature", "properties": { "field_1": "Amazon", "field_2": "1850 Mercer Rd.", "field_3": 38.077106, "field_4": -84.530022, "field_5": null }, "geometry": { "type": "Point", "coordinates": [ 38.077106, -84.530022 ] } },
+{ "type": "Feature", "properties": { "field_1": "Cardinal Hill", "field_2": "2050 Versailles Rd.", "field_3": 38.025055, "field_4": -84.323128, "field_5": null }, "geometry": { "type": "Point", "coordinates": [ 38.025055, -84.323128 ] } }
+]
+}
