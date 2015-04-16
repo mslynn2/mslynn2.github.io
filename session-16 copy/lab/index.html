@@ -14,18 +14,17 @@
     
 /* CSS style rules go here! */  
     body {  
-            background: #f5f5f5;   
-            font-family: Imprima, sans-serif;
-        }
+        background: #f5f5f5;   
+        font-family: Imprima, sans-serif;
+    }
     
-    header { 
+     header { 
             width: 100%;
             min-width: 800px;
             margin: 0 auto;
             background: steelblue;
             padding: 15px 0 20px;
         }
-    
     h1 { 
         font-family: Dosis, sans-serif;
         color: #375671; 
@@ -33,15 +32,50 @@
         margin: 0 auto;
         color: whitesmoke;
     }
-    
     h2 { 
         font-family: Dosis, sans-serif;
         color: #375671;
         width: 80%;
         margin: 0 auto;
         color: whitesmoke;
+    }    
+    h3 {
+        font-family: Dosis, sans-serif;
+        color: #003d71
     }
+    p { 
+        font-size: .9em; 
+        color: #375671; 
+    }
+    ul {
+        list-style-type: none; 
+        font-size: .9em; 
+        color: #375671; 
+        line-height: 1.6em;
+    }
+    a, a:visited {   
+        color: #003d71;
+    }    
     
+    .project {
+        width: 80%;
+        min-width: 800px;
+        height: 100%;
+        margin: 35px auto;
+    }
+    .project:after{
+        content: "";
+        display: table;
+        clear: both; 
+    }
+    .project-image {
+        width: 388px;
+        height: 240px;
+        background: white;
+        float: left;
+        margin-right: 20px;
+        border: 2px solid #dddddd;
+    }  
 </style>
 </head>
 
@@ -51,24 +85,24 @@
     <h2>Web Mapping at the University of Kentucky</h2>
     
     <section>
-        <image src="" alt="">
-        <h3>Map 1 Title</h3>
-        <p>Map 1 Text</p>
+        <a target="_blank" href="iguana-invasion/"><image src="images/map1.png" alt="Iguana Invasion of                     Melbourne, Australia"  class="project-image"/></a>
+        <h3><a target="_blank" href="iguana-invasion/">Attack of the Killer Iguanas</a></h3>
+        <p>This is a map of hypothetical iguana landing zones in and around the city of Melbourne, Australia. The circles represent containment zones whereas each has a unique radius depending on that specific iguanas reach.  Furthermore, the user is able to click throughout the map to distinguish travel routes that are deemed safe.</p>
         <p></p>
         <ul>
-            <li><a href="" /></li>
-            <li><a href="" /></li>
+            <li>See the map:<a href="iguana-invasion/">Attack of the Killer Iguanas</a></li>
+            <li>See the <a href="https://github.com/mslynn2/myGEO409/blob/master/map-01%20copy/map1%20copy.html">code for this map hosted on GitHub</a></li>
         <ul>
     </section>
             
     <section>
-        <image src="" alt="">
-        <h3>Map 2 Title</h3>
-        <p>Map 2 Text</p>
+        <a target="_blank" href="ky-vacancy/"><image src="images/KY_Vacant_Housing.png" alt="KY Housing Vacancy"  class="project-image"/></a>
+        <h3><a target="_blank" href="ky-vacancy/">KY Housing Vacancy</a></h3>
+        <p>This is an interactive choropleth map displaying vacant housing property for the state of KY.</p>
         <p></p>
         <ul>
-            <li><a href="" /></li>
-            <li><a href="" /></li>
+            <li>See the map: <a href="ky-vacancy/">KY Housing Vacancy</a></li>
+            <li>See the <a href="https://github.com/mslynn2/myGEO409/blob/master/session-13%20copy/lab/taskI.html">code for this map hosted on Github</a></li>
         <ul>
     </section>
             
@@ -84,6 +118,8 @@
     </section>
 
     <p>Hello World! I'm going to be a portfolio page.</p>
+            
+    
     
 </body>
 </html>
